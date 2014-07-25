@@ -83,6 +83,23 @@ ALERTA: Fim da Conexão com: 192.168.1.100 em: 25/07/14 13:36:05
 true
 ```
 
+## Validar NFe
+```php
+/**
+ * @return mixed boolean ou string com o erro 
+ */	
+```
+#### ACBrMonitor
+```
+NFE.VALIDARNFE("C:\ACBrNFeMonitor\WEB\nfe\99999999999999999999999999999999999999999999.xml")
+OK: 
+ALERTA: Fim da Conexão com: 192.168.1.100 em: 25/07/14 13:53:47
+```
+#### ACBrMonitorPhp
+```php
+true
+```
+
 ## Ativo
 ```php
 ```
