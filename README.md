@@ -147,6 +147,39 @@ Array
 )
 ```
 
+## Cancelar NFe
+```php
+/**
+ * @return mixed array ou string com o erro 
+ */		
+```
+#### ACBrMonitor
+```
+```
+#### ACBrMonitorPhp
+```php
+```
+
+## Imprimir Danfe PDF 
+```php
+/**
+ * @return mixed boolean ou string com o erro 
+ */		
+```
+#### ACBrMonitor
+```
+NFE.IMPRIMIRDANFEPDF("C:\ACBrNFeMonitor\WEB\nfe\99999999999999999999999999999999999999999999.xml")
+OK: Arquivo criado em: C:\ACBrNFeMonitor\WEB\pdf\99999999999999999999999999999999999999999999.pdf
+
+NFE.LOADFROMFILE("C:\ACBrNFeMonitor\WEB\pdf\99999999999999999999999999999999999999999999.pdf", "60")
+OK: PDF
+```
+#### ACBrMonitorPhp
+```php
+- Save file to pathweb
+true
+```
+
 ## Ativo
 ```php
 ```
