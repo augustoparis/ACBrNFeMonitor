@@ -180,6 +180,19 @@ OK: RETORNO É UMA STRING DO PDF
 true
 ```
 
+## Inutilizar NFe
+```php
+/**
+ * @return mixed array ou string com o erro 
+ */	
+```
+#### ACBrMonitor
+```
+```
+#### ACBrMonitorPhp
+```php
+```
+
 ## Enviar NFe
 ```php
 /**
