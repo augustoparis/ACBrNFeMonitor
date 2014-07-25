@@ -9,7 +9,6 @@ ACBr NFe Monitor em PHP
  * @return mixed boolean ou string com o erro 
  */	
 ```
-### Exemplo
 #### ACBrMonitor
 ```
 NFE.ATIVO
@@ -26,7 +25,6 @@ true
  * @return mixed array ou string com o erro 
  */	
 ```
-### Exemplo
 #### ACBrMonitor
 ```
 NFE.STATUSSERVICO
@@ -74,7 +72,6 @@ Array
  * @return mixed boolean ou string com o erro  
  */	
 ```
-### Exemplo
 #### ACBrMonitor
 ```
 NFE.ASSINARNFE("C:\ACBrNFeMonitor\WEB\nfe\99999999999999999999999999999999999999999999.xml")
@@ -89,7 +86,6 @@ true
 ## Ativo
 ```php
 ```
-### Exemplo
 #### ACBrMonitor
 ```
 ```
