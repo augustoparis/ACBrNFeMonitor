@@ -180,6 +180,95 @@ OK: RETORNO É UMA STRING DO PDF
 true
 ```
 
+## Enviar NFe
+```php
+/**
+ * @return mixed array ou string com o erro 
+ */		
+```
+#### ACBrMonitor
+```
+NFE.ENVIARNFE("C:\ACBrNFeMonitor\WEB\nfe\99999999999999999999999999999999999999999999.xml",198,1,0)
+OK: Lote recebido com sucesso
+[ENVIO]
+Versao=PR-v3_0_10
+TpAmb=2
+VerAplic=PR-v3_0_10
+CStat=103
+XMotivo=Lote recebido com sucesso
+CUF=41
+NRec=999999999999999
+DhRecbto=25/07/2014 16:11:09
+TMed=1
+Autorizado o uso da NF-e
+[RETORNO]
+Versao=PR-v3_0_10
+TpAmb=2
+VerAplic=PR-v3_0_10
+NRec=999999999999999
+CStat=100
+XMotivo=Autorizado o uso da NF-e
+CUF=41
+[NFE70]
+Versao=PR-v3_0_10
+TpAmb=2
+VerAplic=PR-v3_0_10
+CStat=100
+XMotivo=Autorizado o uso da NF-e
+CUF=41
+ChNFe=99999999999999999999999999999999999999999999
+DhRecbto=25/07/2014 16:11:09
+NProt=999999999999999
+DigVal=EO+Zev17Ce02kUNCMfiAlCiET9A=
+
+ALERTA: Fim da Conexão com: 192.168.1.100 em: 25/07/14 16:11:09
+```
+#### ACBrMonitorPhp
+```php
+Array
+(
+    [OK] => Array
+        (
+            [ENVIO] => Array
+                (
+                    [Versao] => PR-v3_0_10
+                    [TpAmb] => 2
+                    [VerAplic] => PR-v3_0_10
+                    [CStat] => 103
+                    [XMotivo] => Lote recebido com sucesso
+                    [CUF] => 41
+                    [NRec] => 999999999999999
+                    [DhRecbto] => 25/07/2014 16:11:09
+                    [TMed] => 1
+                )
+            [RETORNO] => Array
+                (
+                    [Versao] => PR-v3_0_10
+                    [TpAmb] => 2
+                    [VerAplic] => PR-v3_0_10
+                    [NRec] => 999999999999999
+                    [CStat] => 100
+                    [XMotivo] => Autorizado o uso da NF-e
+                    [CUF] => 41
+                )
+            [NFE70] => Array
+                (
+                    [Versao] => PR-v3_0_10
+                    [TpAmb] => 2
+                    [VerAplic] => PR-v3_0_10
+                    [CStat] => 100
+                    [XMotivo] => Autorizado o uso da NF-e
+                    [CUF] => 41
+                    [ChNFe] => 99999999999999999999999999999999999999999999
+                    [DhRecbto] => 25/07/2014 16:11:09
+                    [NProt] => 999999999999999
+                    [DigVal] => EO+Zev17Ce02kUNCMfiAlCiET9A
+                )
+        )
+)
+```
+
+
 ## Ativo
 ```php
 ```
