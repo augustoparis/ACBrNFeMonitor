@@ -4,7 +4,6 @@ ACBrNFeMonitor
 ACBr NFe Monitor em PHP
 
 # Ativo
-==============
 ### ACBrMonitor
 ```
 NFE.ATIVO
@@ -16,7 +15,6 @@ true
 ```
 
 # Status Serviço
-==============
 ### ACBrMonitor
 ```
 NFE.STATUSSERVICO
