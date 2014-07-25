@@ -100,6 +100,53 @@ ALERTA: Fim da Conexão com: 192.168.1.100 em: 25/07/14 13:53:47
 true
 ```
 
+## Consultar NFe
+```php
+/**
+ * @return mixed array ou string com o erro 
+ */	
+```
+#### ACBrMonitor
+```
+NFE.CONSULTARNFE("99999999999999999999999999999999999999999999")
+OK: Autorizado o uso da NF-e
+[CONSULTA]
+Versao=PR-v3_0_10
+TpAmb=2
+VerAplic=PR-v3_0_10
+CStat=100
+XMotivo=Autorizado o uso da NF-e
+CUF=41
+ChNFe=99999999999999999999999999999999999999999999
+DhRecbto=25/07/2014 14:05:20
+NProt=999999999999999
+DigVal=uHxGXmvx/9xEOuDqcvKht0O0j1Y=
+
+ALERTA: Fim da Conexão com: 192.168.1.100 em: 25/07/14 14:38:47
+```
+#### ACBrMonitorPhp
+```php
+Array
+(
+    [OK] => Array
+        (
+            [CONSULTA] => Array
+                (
+                    [Versao] => PR-v3_0_10
+                    [TpAmb] => 2
+                    [VerAplic] => PR-v3_0_10
+                    [CStat] => 100
+                    [XMotivo] => Autorizado o uso da NF-e
+                    [CUF] => 41
+                    [ChNFe] => 99999999999999999999999999999999999999999999
+                    [DhRecbto] => 25/07/2014 14:05:20
+                    [NProt] => 999999999999999
+                    [DigVal] => uHxGXmvx/9xEOuDqcvKht0O0j1Y
+                )
+        )
+)
+```
+
 ## Ativo
 ```php
 ```
