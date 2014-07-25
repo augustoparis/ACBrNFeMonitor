@@ -3,19 +3,31 @@ ACBrNFeMonitor
 
 ACBr NFe Monitor em PHP
 
-# Ativo
-### ACBrMonitor
+## Ativo
+```php
+/**
+ * @return mixed boolean ou string com o erro 
+ */	
+```
+### Exemplo
+#### ACBrMonitor
 ```
 NFE.ATIVO
 OK: Ativo
 ```
-### ACBrMonitorPhp
+#### ACBrMonitorPhp
 ```php
 true
 ```
 
-# Status Serviço
-### ACBrMonitor
+## Status Serviço
+```php 
+/**
+ * @return mixed array ou string com o erro 
+ */	
+```
+### Exemplo
+#### ACBrMonitor
 ```
 NFE.STATUSSERVICO
 OK: Servico em Operacao
@@ -31,9 +43,9 @@ TMed=1
 DhRetorno=30/12/1899
 XObs=
 
-ALERTA: Fim da Conexão com: 192.168.1.131 em: 25/07/14 11:50:40
+ALERTA: Fim da Conexão com: 192.168.1.100 em: 25/07/14 11:50:40
 ```
-### ACBrMonitorPhp
+#### ACBrMonitorPhp
 ```php
 Array
 (
@@ -54,6 +66,35 @@ Array
                 )
         )
 )
+```
+
+## Assinar NFe
+```php
+/**
+ * @return mixed boolean ou string com o erro  
+ */	
+```
+### Exemplo
+#### ACBrMonitor
+```
+NFE.ASSINARNFE("C:\ACBrNFeMonitor\WEB\nfe\99999999999999999999999999999999999999999999.xml")
+OK: C:\ACBrNFeMonitor\WEB\nfe\99999999999999999999999999999999999999999999.xml
+ALERTA: Fim da Conexão com: 192.168.1.100 em: 25/07/14 13:36:05
+```
+#### ACBrMonitorPhp
+```php
+true
+```
+
+## Ativo
+```php
+```
+### Exemplo
+#### ACBrMonitor
+```
+```
+#### ACBrMonitorPhp
+```php
 ```
 
 
