@@ -1,7 +1,14 @@
-ACBrNFeMonitor
+ACBrNFeMonitor em PHP
 ==============
 
-ACBr NFe Monitor em PHP
+## Descrição do ACBrNFeMonitor
+
+O ACBrMonitor é um programa executável desenvolvido usando os componentes do ACBr. A finalidade do ACBrMonitor é permitir que qualquer linguagem capaz de ler e criar arquivos TXT ou utilizar Sockets (TCP/IP) consiga usar todos os recursos dos componentes ACBr.
+
+## Referências
+- <http://acbr.sourceforge.net/drupal/?q=node/19>
+- <http://acbr.sourceforge.net/drupal/?q=node/40>
+- <http://anfm.blogspot.com.br/2010/02/comandos-do-acbrnfemonitor.html>
 
 ## Ativo
 ```php
@@ -388,3 +395,8 @@ As long as you retain this notice you can do whatever you want with this stuff. 
 
 - <http://emalherbi.com>
 - <https://github.com/emalherbi>
+
+**Roberto Godinho**
+
+- <suporte.desyscom@gmail.com>
+- <roberto.godinho.gd@gmail.com>
