@@ -3,22 +3,21 @@ ACBrNFeMonitor
 
 ACBr NFe Monitor em PHP
 
-==============
 # Ativo
 ==============
-### Retorno do ACBrMonitor
+### ACBrMonitor
 ```
 NFE.ATIVO
 OK: Ativo
 ```
-### Retorno do ACBrMonitorPhp
+### ACBrMonitorPhp
 ```php
 true
 ```
-==============
+
 # Status Serviço
 ==============
-### Retorno do ACBrMonitor
+### ACBrMonitor
 ```
 NFE.STATUSSERVICO
 OK: Servico em Operacao
@@ -36,7 +35,7 @@ XObs=
 
 ALERTA: Fim da Conexão com: 192.168.1.131 em: 25/07/14 11:50:40
 ```
-### Retorno do ACBrMonitorPhp
+### ACBrMonitorPhp
 ```php
 Array
 (
