@@ -281,7 +281,6 @@ Array
 )
 ```
 
-
 ## Ativo
 ```php
 ```
@@ -290,44 +289,6 @@ Array
 ```
 #### ACBrMonitorPhp
 ```php
-```
-
-
-
-### Retorno do ACBrMonitor
-```
-NFE.INUTILIZARNFE("99999999999999","Teste de inutilizacao",14,55,1,1,5)
-OK: Inutilizacao de numero homologado
-[INUTILIZACAO]
-Versao=PR-v2_8_7
-TpAmb=2
-VerAplic=PR-v2_8_7
-CStat=102
-XMotivo=Inutilizacao de numero homologado
-CUF=41
-DhRecbto=25/07/2014 09:47:11
-NProt=999999999999999
-```
-
-### Retorno do ACBrMonitorPhp
-```php
-Array
-(
-    [OK] => Array
-        (
-            [INUTILIZACAO] => Array
-                (
-                    [Versao] => PR-v2_8_7
-                    [TpAmb] => 2
-                    [VerAplic] => PR-v2_8_7
-                    [CStat] => 102
-                    [XMotivo] => Inutilizacao de numero homologado
-                    [CUF] => 41
-                    [DhRecbto] => 25/07/2014 09:47:11
-                    [NProt] => 999999999999999
-                )
-        )
-)
 ```
 
 ## Contributing
