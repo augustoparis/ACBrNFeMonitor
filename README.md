@@ -155,9 +155,53 @@ Array
 ```
 #### ACBrMonitor
 ```
+NFE.CANCELARNFE("99999999999999999999999999999999999999999999","Teste de cancelamento utilizando ACBrMonitor")
+OK: Lote de Evento Processado
+[CANCELAMENTO]
+Versao=PR-v3_0_10
+TpAmb=2
+VerAplic=PR-v3_0_10
+CStat=135
+XMotivo=Evento registrado e vinculado a NF-e
+CUF=41
+ChNFe=99999999999999999999999999999999999999999999
+DhRecbto=25/07/2014 16:34:10
+NProt=999999999999999
+tpEvento=110111
+xEvento=Cancelamento
+nSeqEvento=1
+CNPJDest=
+emailDest=
+XML= XML
+
+ALERTA: Fim da Conexão com: 192.168.1.100 em: 25/07/14 16:34:10
 ```
 #### ACBrMonitorPhp
 ```php
+Array
+(
+    [OK] => Array
+        (
+            [CANCELAMENTO] => Array
+                (
+                    [Versao] => PR-v3_0_10
+                    [TpAmb] => 2
+                    [VerAplic] => PR-v3_0_10
+                    [CStat] => 135
+                    [XMotivo] => Evento registrado e vinculado a NF-e
+                    [CUF] => 41
+                    [ChNFe] => 99999999999999999999999999999999999999999999
+                    [DhRecbto] => 25/07/2014 16:34:10
+                    [NProt] => 999999999999999
+                    [tpEvento] => 110111
+                    [xEvento] => Cancelamento
+                    [nSeqEvento] => 1
+                    [CNPJDest] => 
+                    [emailDest] => 
+                    [XML] =>  XML
+                )
+        )
+)
 ```
 
 ## Imprimir Danfe PDF 
