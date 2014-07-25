@@ -52,9 +52,7 @@ Array
                     [DhRetorno] => 30/12/1899
                     [XObs] => 
                 )
-
         )
-
 )
 ```
 
@@ -62,7 +60,7 @@ Array
 
 ### Retorno do ACBrMonitor
 ```
-NFE.INUTILIZARNFE("09610964000126","Teste de inutilizacao",14,55,5,10,12)
+NFE.INUTILIZARNFE("99999999999999","Teste de inutilizacao",14,55,1,1,5)
 OK: Inutilizacao de numero homologado
 [INUTILIZACAO]
 Versao=PR-v2_8_7
@@ -72,7 +70,7 @@ CStat=102
 XMotivo=Inutilizacao de numero homologado
 CUF=41
 DhRecbto=25/07/2014 09:47:11
-NProt=141140001180951
+NProt=999999999999999
 ```
 
 ### Retorno do ACBrMonitorPhp
@@ -90,11 +88,9 @@ Array
                     [XMotivo] => Inutilizacao de numero homologado
                     [CUF] => 41
                     [DhRecbto] => 25/07/2014 09:47:11
-                    [NProt] => 141140001180951
+                    [NProt] => 999999999999999
                 )
-
         )
-
 )
 ```
 
