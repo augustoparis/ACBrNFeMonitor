@@ -232,9 +232,39 @@ true
 ```
 #### ACBrMonitor
 ```
+NFE.INUTILIZARNFE("99999999999999","Teste de inutilizacao",14,55,5,17,17)
+OK: Inutilizacao de numero homologado
+[INUTILIZACAO]
+Versao=PR-v3_0_10
+TpAmb=2
+VerAplic=PR-v3_0_10
+CStat=102
+XMotivo=Inutilizacao de numero homologado
+CUF=41
+DhRecbto=25/07/2014 17:01:16
+NProt=999999999999999
+
+ALERTA: Fim da Conexão com: 192.168.1.100 em: 25/07/14 17:01:16
 ```
 #### ACBrMonitorPhp
 ```php
+Array
+(
+    [OK] => Array
+        (
+            [INUTILIZACAO] => Array
+                (
+                    [Versao] => PR-v3_0_10
+                    [TpAmb] => 2
+                    [VerAplic] => PR-v3_0_10
+                    [CStat] => 102
+                    [XMotivo] => Inutilizacao de numero homologado
+                    [CUF] => 41
+                    [DhRecbto] => 25/07/2014 17:01:16
+                    [NProt] => 999999999999999
+                )
+        )
+)
 ```
 
 ## Enviar NFe
