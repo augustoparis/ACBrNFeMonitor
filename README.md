@@ -15,6 +15,16 @@ O ACBrMonitor é um programa executável desenvolvido usando os componentes do [
 - [+ Comandos do ACBrNFeMonitor](http://anfm.blogspot.com.br/2010/02/comandos-do-acbrnfemonitor.html)
 
 ## Ativo
+
+```php
+$ativo = $nfe->ativo();
+echo '<pre>';
+echo print_r( $ativo );
+echo '</pre>';
+```
+
+#### Retorno
+
 ```php
 /**
  * @return mixed boolean ou string com o erro 
