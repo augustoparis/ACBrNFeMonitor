@@ -1,14 +1,18 @@
 ACBrNFeMonitor em PHP
-==============
+=====================
 
-## Descrição do ACBrNFeMonitor
+## Descrição do "ACBrNFeMonitor em PHP"
 
-O ACBrMonitor é um programa executável desenvolvido usando os componentes do ACBr. A finalidade do ACBrMonitor é permitir que qualquer linguagem capaz de ler e criar arquivos TXT ou utilizar Sockets (TCP/IP) consiga usar todos os recursos dos componentes ACBr.
+Realizar a conexão via socket TCP/IP com o "ACBrNFeMonitor" com a finalidade de realizar melhores tratamentos nas respostas do próprio ACBrMonitor.
+
+## Sobre o ACBrNFeMonitor
+
+O ACBrMonitor é um programa executável desenvolvido usando os componentes do [ACBr](http://acbr.sourceforge.net/). A finalidade do ACBrMonitor é permitir que qualquer linguagem capaz de ler e criar arquivos TXT ou utilizar Sockets (TCP/IP) consiga usar todos os recursos dos componentes ACBr.
 
 ## Referências
-- <http://acbr.sourceforge.net/drupal/?q=node/19>
-- <http://acbr.sourceforge.net/drupal/?q=node/40>
-- <http://anfm.blogspot.com.br/2010/02/comandos-do-acbrnfemonitor.html>
+- [ACBrMonitor](http://acbr.sourceforge.net/drupal/?q=node/19)
+- [Comandos do ACBrNFeMonitor](http://acbr.sourceforge.net/drupal/?q=node/40)
+- [+ Comandos do ACBrNFeMonitor](http://anfm.blogspot.com.br/2010/02/comandos-do-acbrnfemonitor.html)
 
 ## Ativo
 ```php
@@ -381,11 +385,17 @@ true
 
 ## Contributing
 
-Anyone and Everyone is welcome to contribute.
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Test your changes to the best of your ability.
+4. Update the documentation to reflect your changes if they add or changes current functionality.
+5. Commit your changes (`git commit -am 'Added some feature'`)
+6. Push to the branch (`git push origin my-new-feature`)
+7. Create new Pull Request
 
 ## License
 
-"THE BEER-WARE LICENSE":
+"THE BEER-WARE LICENSE" (Revision 42):
 
 As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return.
 
