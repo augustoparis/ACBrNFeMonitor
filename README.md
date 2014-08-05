@@ -14,6 +14,14 @@ O ACBrMonitor é um programa executável desenvolvido usando os componentes do [
 - [Comandos do ACBrNFeMonitor](http://acbr.sourceforge.net/drupal/?q=node/40)
 - [+ Comandos do ACBrNFeMonitor](http://anfm.blogspot.com.br/2010/02/comandos-do-acbrnfemonitor.html)
 
+## Início
+
+Informe seu IP e Porta configurado no ACBrMonitor.
+ 
+```php
+$nfe = new ACBrNFe('192.168.1.1', 3436);
+```
+
 ## Ativo
 ```php
 $ativo = $nfe->ativo();

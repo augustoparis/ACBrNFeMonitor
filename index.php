@@ -8,7 +8,7 @@ defined('ROOT')
 
 require_once(ROOT . DS . 'acbr' . DS . 'monitor' . DS . "ACBrNFe.php");
 
-$nfe = new ACBrNFe('192.168.100', 3436);
+$nfe = new ACBrNFe('192.168.1.1', 3436);
 // $nfe->debug = true;
 
 /**
