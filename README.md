@@ -117,28 +117,42 @@ true
 
 ## Validar NFe
 ```php
+$validarNFe = $nfe->validarNFe( '99999999999999999999999999999999999999999999' );
+echo '<pre>';
+echo print_r( $validarNFe );
+echo '</pre>';
+```
+#### Retorno
+```php
 /**
  * @return mixed boolean ou string com o erro 
  */	
 ```
-#### ACBrMonitor
+###### ACBrMonitor
 ```
 NFE.VALIDARNFE("C:\ACBrNFeMonitor\WEB\nfe\99999999999999999999999999999999999999999999.xml")
 OK: 
 ALERTA: Fim da Conexão com: 192.168.1.100 em: 25/07/14 13:53:47
 ```
-#### ACBrMonitorPhp
+###### ACBrMonitorPhp
 ```php
 true
 ```
 
 ## Consultar NFe
 ```php
+$consultarNFe = $nfe->consultarNFe('99999999999999999999999999999999999999999999');
+echo '<pre>';
+echo print_r( $consultarNFe );
+echo '</pre>';
+```
+#### Retorno
+```php
 /**
  * @return mixed array ou string com o erro 
  */	
 ```
-#### ACBrMonitor
+###### ACBrMonitor
 ```
 NFE.CONSULTARNFE("99999999999999999999999999999999999999999999")
 OK: Autorizado o uso da NF-e
@@ -156,7 +170,7 @@ DigVal=uHxGXmvx/9xEOuDqcvKht0O0j1Y=
 
 ALERTA: Fim da Conexão com: 192.168.1.100 em: 25/07/14 14:38:47
 ```
-#### ACBrMonitorPhp
+###### ACBrMonitorPhp
 ```php
 Array
 (
