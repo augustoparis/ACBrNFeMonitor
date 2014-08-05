@@ -286,11 +286,18 @@ true
 
 ## Inutilizar NFe
 ```php
+$inutilizarNFe = $nfe->inutilizarNFe('99999999999999', 'Teste de inutilizacao', 5, 18, 18);
+echo '<pre>';
+echo print_r( $inutilizarNFe );
+echo '</pre>';
+```
+#### Retorno
+```php
 /**
  * @return mixed array ou string com o erro 
  */	
 ```
-#### ACBrMonitor
+###### ACBrMonitor
 ```
 NFE.INUTILIZARNFE("99999999999999","Teste de inutilizacao",14,55,5,17,17)
 OK: Inutilizacao de numero homologado
@@ -306,7 +313,7 @@ NProt=999999999999999
 
 ALERTA: Fim da Conexão com: 192.168.1.100 em: 25/07/14 17:01:16
 ```
-#### ACBrMonitorPhp
+###### ACBrMonitorPhp
 ```php
 Array
 (
