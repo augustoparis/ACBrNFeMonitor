@@ -1,9 +1,9 @@
 ACBrNFeMonitor em PHP
 =====================
 
-## Descrição do "ACBrNFeMonitor em PHP"
+## Descrição 
 
-Realizar a conexão via socket TCP/IP com o "ACBrNFeMonitor" com a finalidade de realizar melhores tratamentos nas respostas do próprio ACBrMonitor.
+Realizar a conexão via socket TCP/IP com o "ACBrNFeMonitor" com a finalidade de realizar melhores tratamentos nas respostas do ACBrMonitor.
 
 ## Sobre o ACBrNFeMonitor
 
