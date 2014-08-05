@@ -195,11 +195,18 @@ Array
 
 ## Cancelar NFe
 ```php
+$cancelarNFe = $nfe->cancelarNFe('99999999999999999999999999999999999999999999', 'Teste de cancelamento utilizando ACBrMonitor');
+echo '<pre>';
+echo print_r( $cancelarNFe );
+echo '</pre>';
+```
+#### Retorno
+```php
 /**
  * @return mixed array ou string com o erro 
  */		
 ```
-#### ACBrMonitor
+###### ACBrMonitor
 ```
 NFE.CANCELARNFE("99999999999999999999999999999999999999999999","Teste de cancelamento utilizando ACBrMonitor")
 OK: Lote de Evento Processado
@@ -222,7 +229,7 @@ XML= XML
 
 ALERTA: Fim da Conexão com: 192.168.1.100 em: 25/07/14 16:34:10
 ```
-#### ACBrMonitorPhp
+###### ACBrMonitorPhp
 ```php
 Array
 (
