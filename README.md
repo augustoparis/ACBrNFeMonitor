@@ -259,11 +259,18 @@ Array
 
 ## Imprimir Danfe PDF 
 ```php
+$imprimirDanfePDF = $nfe->imprimirDanfePDF("99999999999999999999999999999999999999999999");
+echo '<pre>';
+echo print_r( $imprimirDanfePDF );
+echo '</pre>';
+```
+#### Retorno
+```php
 /**
  * @return mixed boolean ou string com o erro 
  */		
 ```
-#### ACBrMonitor
+###### ACBrMonitor
 ```
 NFE.IMPRIMIRDANFEPDF("C:\ACBrNFeMonitor\WEB\nfe\99999999999999999999999999999999999999999999.xml")
 OK: Arquivo criado em: C:\ACBrNFeMonitor\WEB\pdf\99999999999999999999999999999999999999999999.pdf
@@ -271,7 +278,7 @@ OK: Arquivo criado em: C:\ACBrNFeMonitor\WEB\pdf\9999999999999999999999999999999
 NFE.LOADFROMFILE("C:\ACBrNFeMonitor\WEB\pdf\99999999999999999999999999999999999999999999.pdf", "60")
 OK: RETORNO É UMA STRING DO PDF
 ```
-#### ACBrMonitorPhp
+###### ACBrMonitorPhp
 ```php
 - SALVA O PDF NO PATHWEB
 true
