@@ -336,11 +336,18 @@ Array
 
 ## Enviar NFe
 ```php
+$enviarNFe = $nfe->enviarNFe('99999999999999999999999999999999999999999999', '198');
+echo '<pre>';
+echo print_r( $enviarNFe );
+echo '</pre>';
+```
+#### Retorno
+```php
 /**
  * @return mixed array ou string com o erro 
  */		
 ```
-#### ACBrMonitor
+###### ACBrMonitor
 ```
 NFE.ENVIARNFE("C:\ACBrNFeMonitor\WEB\nfe\99999999999999999999999999999999999999999999.xml",198,1,0)
 OK: Lote recebido com sucesso
@@ -377,7 +384,7 @@ DigVal=EO+Zev17Ce02kUNCMfiAlCiET9A=
 
 ALERTA: Fim da Conexão com: 192.168.1.100 em: 25/07/14 16:11:09
 ```
-#### ACBrMonitorPhp
+###### ACBrMonitorPhp
 ```php
 Array
 (
