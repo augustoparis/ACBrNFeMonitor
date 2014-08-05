@@ -431,17 +431,24 @@ Array
 
 ## Enviar Email NFe
 ```php
+$enviarEmail = $nfe->enviarEmail('seu@email.com.br', '99999999999999999999999999999999999999999999');
+echo '<pre>';
+echo print_r( $enviarEmail );
+echo '</pre>';
+```
+#### Retorno
+```php
 /**
  * @return mixed boolean ou string com o erro
  */		
 ```
-#### ACBrMonitor
+###### ACBrMonitor
 ```
 NFE.ENVIAREMAIL("seu@email.com.br","C:\ACBrNFeMonitor\WEB\nfe\99999999999999999999999999999999999999999999.xml",1)
 OK: Email enviado com sucesso
 ALERTA: Fim da Conexão com: 192.168.1.131 em: 25/07/14 16:22:33
 ```
-#### ACBrMonitorPhp
+###### ACBrMonitorPhp
 ```php
 true
 ```
