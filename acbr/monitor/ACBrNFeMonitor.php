@@ -106,9 +106,11 @@ class ACBrNFeMonitor {
 			$pos1 = strpos($values, '[');
 			$pos2 = strpos($values, ']');
 			if ( $pos1 !== false && $pos2 !== false ) {
-				$key = substr($values, $pos1, $pos2);
-				$key = str_replace("[", "", $key);
-				$key = str_replace("]", "", $key);
+				if ( strpos($values, 'nRec') === false ) {
+					$key = substr($values, $pos1, $pos2);
+					$key = str_replace("[", "", $key);
+					$key = str_replace("]", "", $key);
+				}
 			}
 			$pos3 = strpos($values, '=');
 			if ( $pos3 !== false ) {
